@@ -1,0 +1,41 @@
+# Virtual environment
+.venv/
+venv/
+p9/Scripts/
+p9/Lib/
+p9/pyvenv.cfg
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files (large, and can be re-downloaded from the source Drive folder)
+data/
+*.xlsx
+*.csv
+
+# Trained model artifacts (large, and regenerable by rerunning the notebook)
+*.pkl
+*.joblib
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Environment / secrets
+.env
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+
+data/
+
+Reference/
